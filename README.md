@@ -1,1 +1,7 @@
-graphql-kr.github.io
+# GraphQL 한글 문서
+
+GraphQL 공식 문서 한글 번역본입니다.
+
+(진행중)
+
+오타, 오역 제보는 이슈로 달아주세요.
