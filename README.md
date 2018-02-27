@@ -1,7 +1,30 @@
-# GraphQL 한글 문서
+# Contributing
 
-GraphQL 공식 문서 한글 번역본입니다.
+Organization gh-pages deploy the `master` branch, so active development occurs
+on this `source` branch.
 
-(진행중)
+The site is written in JS and Markdown files in `site/`.
 
-오타, 오역 제보는 이슈로 달아주세요.
+The site chrome are all in JS files in `site/_core/`.
+
+### Making changes
+
+The first time, get all the dependencies loaded via
+
+```
+npm install
+```
+
+Then, run the server via
+
+```
+npm start
+Open http://localhost:8444/
+```
+
+Anytime you change the contents, just refresh the page and it's going to be updated.
+
+### Publish the Website
+
+Once pushed to the `source` branch, Travis CI will publish http://graphql.org/
+
