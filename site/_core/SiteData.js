@@ -7,5 +7,5 @@
  */
 
 module.exports = {
-  description: "A query language for your API"
+  description: "API를 위한 쿼리 언어"
 };
