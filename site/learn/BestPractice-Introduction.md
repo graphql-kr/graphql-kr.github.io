@@ -64,4 +64,4 @@ GraphQL 타입 시스템은 일부 필드가 [lists of values](/learn/schema/#li
 
 GraphQL은 서버에 깔끔한 코드를 작성할 수 있는 방식으로 설계되었습니다. 모든 타입의 모든 필드에는 해당 값을 확인하는데 초점을 맞춘 단일목적 함수가 있습니다. 하지만 이러한 추가적인 고려없이, 간단한 GraphQL 서비스는 매우 반복적으로 데이터를 데이터베이스에서 로드할 수 있습니다.
 
-이것은 일반적으로 백엔드의 데이터에 대한 다중 요청이 단기간에 수집될 때 단일 요청에서 기본 데이터베이스 또는 마이크로 서비스로 발송되는 일괄 처리 기법인 Facebook의 [DataLoader](https://www.windowsazure.com/media/downloads/) 와 같은 도구를 이용하여 해결할 수 있습니다.
+이것은 일반적으로 백엔드의 데이터에 대한 다중 요청이 단기간에 수집될 때 단일 요청에서 기본 데이터베이스 또는 마이크로 서비스로 발송되는 일괄 처리 기법인 Facebook의 [DataLoader](https://github.com/facebook/dataloader) 와 같은 도구를 이용하여 해결할 수 있습니다.
