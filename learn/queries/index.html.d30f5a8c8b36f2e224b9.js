@@ -73,7 +73,7 @@
 	var _coreSwapiSchema = __webpack_require__(140);
 
 	renderHere(React.createElement(_coreMiniGraphiQL2['default'], { schema: _coreSwapiSchema.StarWarsSchema,
-	  query: '{\n  hero {\n    name\n    # 쿼리에 주석을 쓸 수 있습니다!\n    friends {\n      name\n    }\n  }\n}', variables: '' }));
+	  query: '{\n  hero {\n    name\n    # 쿼리에 주석을 쓸 수도 있습니다!\n    friends {\n      name\n    }\n  }\n}', variables: '' }));
 	}());
 	(function () {
 	'use strict';
@@ -130,6 +130,20 @@
 
 	renderHere(React.createElement(_coreMiniGraphiQL2['default'], { schema: _coreSwapiSchema.StarWarsSchema,
 	  query: '{\n  leftComparison: hero(episode: EMPIRE) {\n    ...comparisonFields\n  }\n  rightComparison: hero(episode: JEDI) {\n    ...comparisonFields\n  }\n}\n\nfragment comparisonFields on Character {\n  name\n  appearsIn\n  friends {\n    name\n  }\n}', variables: '' }));
+	}());
+	(function () {
+	'use strict';
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
+	var _coreMiniGraphiQL = __webpack_require__(1);
+
+	var _coreMiniGraphiQL2 = _interopRequireDefault(_coreMiniGraphiQL);
+
+	var _coreSwapiSchema = __webpack_require__(140);
+
+	renderHere(React.createElement(_coreMiniGraphiQL2['default'], { schema: _coreSwapiSchema.StarWarsSchema,
+	  query: 'query HeroComparison($first: Int = 3) {\n  leftComparison: hero(episode: EMPIRE) {\n    ...comparisonFields\n  }\n  rightComparison: hero(episode: JEDI) {\n    ...comparisonFields\n  }\n}\n\nfragment comparisonFields on Character {\n  name\n  friendsConnection(first: $first) {\n    totalCount\n    edges {\n      node {\n        name\n      }\n    }\n  }\n}', variables: '' }));
 	}());
 	(function () {
 	'use strict';
