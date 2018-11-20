@@ -1,7 +1,7 @@
 ---
 title: 페이지네이션
 layout: ../_core/DocsLayout
-category: Best Practices
+category: 모범 사례
 permalink: /learn/pagination/
 next: /learn/caching/
 ---

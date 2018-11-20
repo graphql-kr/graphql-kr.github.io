@@ -611,13 +611,13 @@ module.exports = ({ page }) =>
     <section className="whos-using-page">
 
       <div className="prose">
-        <h1>Who&rsquo;s using GraphQL?</h1>
+        <h1>누가 GraphQL을 사용하나요?</h1>
         <p>
-          GraphQL is used by teams of all sizes in many different environments and languages to power mobile apps, websites, and APIs.
+          GraphQL은 모바일 앱, 웹사이트, API에 다양한 환경과 언어로 모든 규모의 팀이 사용합니다.
         </p>
         <p>
-          Is your company using GraphQL?<br />
-          Edit this page with a <a target="_blank" href={'https://github.com/graphql/graphql.github.io/edit/source/site/' + page.relPath}>Pull Request</a> to add your logo.
+          GraphQL을 사용하고 있나요?<br />
+          <a target="_blank" href={'https://github.com/graphql/graphql.github.io/edit/source/site/' + page.relPath}>풀 리퀘스트</a> 로 이 페이지를 수정하고 로고를 추가하세요.
         </p>
       </div>
 

@@ -1,7 +1,7 @@
 ---
-title: 검사
+title: 검증
 layout: ../_core/DocsLayout
-category: Learn
+category: 배우기
 permalink: /learn/validation/
 next: /learn/execution/
 ---

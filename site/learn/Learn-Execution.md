@@ -1,7 +1,7 @@
 ---
 title: 실행
 layout: ../_core/DocsLayout
-category: Learn
+category: 배우기
 permalink: /learn/execution/
 next: /learn/introspection/
 ---

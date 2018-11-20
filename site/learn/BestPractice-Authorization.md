@@ -1,7 +1,7 @@
 ---
 title: 인증
 layout: ../_core/DocsLayout
-category: Best Practices
+category: 모범 사례
 permalink: /learn/authorization/
 next: /learn/pagination/
 ---

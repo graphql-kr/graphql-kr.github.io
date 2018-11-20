@@ -1,30 +1,36 @@
-# Contributing
+# 번역 기여하기
 
-Organization gh-pages deploy the `master` branch, so active development occurs
-on this `source` branch.
+[https://graphql-kr.github.io/](https://graphql-kr.github.io/) 페이지는 github pages를 통해 [`master`](/) 브랜치에 배포되며, 개발은 [`develop`](/tree/develop) 브랜치에서 합니다.
 
-The site is written in JS and Markdown files in `site/`.
+이 사이트는 React로 작성되었으며 문서 마크다운 파일들은 [`site/`](/tree/develop/site) 아래에 있습니다.
 
-The site chrome are all in JS files in `site/_core/`.
+### 가이드
 
-### Making changes
+이 레포지토리를 클론합니다.
 
-The first time, get all the dependencies loaded via
-
-```
-npm install
+```sh
+$ git clone https://github.com/graphql-kr/graphql-kr.github.io.git
 ```
 
-Then, run the server via
+`develop` 브랜치로 체크아웃합니다
+
+```sh
+$ git checkout develop
+```
+
+의존성들을 설치합니다.
+
+```sh
+$ npm i
+```
+
+의존성 설치가 완료되면 개발서버를 실행합니다.
 
 ```
-npm start
-Open http://localhost:8444/
+$ npm start
 ```
 
-Anytime you change the contents, just refresh the page and it's going to be updated.
+이제 [http://localhost:8444/](http://localhost:8444/) 를 열면 이 웹사이트가 로컬에서 실행됩니다.
 
-### Publish the Website
-
-Once pushed to the `source` branch, Travis CI will publish http://graphql.org/
+내용을 변경한 후 이 레포지토리에 Pull Request 합니다.
 

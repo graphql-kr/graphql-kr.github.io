@@ -1,7 +1,7 @@
 ---
 title: 그래프로 생각하기
 layout: ../_core/DocsLayout
-category: Best Practices
+category: 모범 사례
 permalink: /learn/thinking-in-graphs/
 next: /learn/serving-over-http/
 ---

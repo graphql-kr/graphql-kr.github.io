@@ -1,7 +1,7 @@
 ---
-title: 복원
+title: 검사
 layout: ../_core/DocsLayout
-category: Learn
+category: 배우기
 permalink: /learn/introspection/
 next: /learn/best-practices/
 ---

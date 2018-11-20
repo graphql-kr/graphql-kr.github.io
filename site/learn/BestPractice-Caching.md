@@ -1,7 +1,7 @@
 ---
 title: 캐싱
 layout: ../_core/DocsLayout
-category: Best Practices
+category: 모범 사례
 permalink: /learn/caching/
 ---
 

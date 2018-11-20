@@ -2,7 +2,7 @@
 title: GraphQL 모범 사례
 sidebarTitle: 소개
 layout: ../_core/DocsLayout
-category: Best Practices
+category: 모범 사례
 permalink: /learn/best-practices/
 next: /learn/thinking-in-graphs/
 ---

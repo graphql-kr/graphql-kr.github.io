@@ -1,10 +1,10 @@
 ---
 title: 스키마 & 타입
 layout: ../_core/DocsLayout
-category: Learn
+category: 배우기
 permalink: /learn/schema/
 next: /learn/validation/
-sublinks: Type System,Type Language,Object Types and Fields,Arguments,The Query and Mutation Types,Scalar Types,Enumeration Types,Lists and Non-Null,Interfaces,Union Types,Input Types
+sublinks: 타입 시스템,타입 언어,객체 타입 & 필드,인자,쿼리 & 뮤테이션 타입,스칼라 타입,열거형 타입,리스트 & Non-Null,인터페이스,유니온 타입,입력 타입
 ---
 
 이 페이지에서는 GraphQL 타입 시스템에 대해 알아야 할 사항과 쿼리 할 수 있는 데이터를 표현하는 방법을 배우게됩니다. GraphQL은 모든 백엔드 프레임워크 또는 프로그래밍 언어와 함께 사용할 수 있기 때문에 구현과 관련된 세부 정보에서 벗어나 개념에 대해서만 이야기 할 것입니다.

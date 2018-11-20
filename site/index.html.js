@@ -182,7 +182,7 @@ module.exports = ({ page, section }) =>
             GraphQL 쿼리는 하나의 리소스 속성에 액세스할 뿐만 아니라 이 리소스 간의 참조를
             자연스럽게 이해합니다. 일반적인 REST API는 여러 URL에서 데이터를 받아와야 하지만
             GraphQL API는 한번의 요청으로 앱에 필요한 모든 데이터를 가져옵니다. GraphQL을
-            사용하는 앱은 느린 모바일 네트워크 연결에서도 빠르게 수행 할 수 있습니다.</p>
+            사용하는 앱은 느린 모바일 네트워크 연결에서도 빠르게 수행할 수 있습니다.</p>
         </div>
         <div className="app-to-server" aria-hidden>
           <img src="/img/phone.svg" width="496" height="440" className="phone" />
@@ -220,12 +220,12 @@ module.exports = ({ page, section }) =>
 
     <section className="point3" id="type-system">
       <div className="prose">
-        <h2>타입 시스템으로<br/>가능한것을 살펴보세요</h2>
+        <h2>타입 시스템으로<br/>가능한 것을 살펴보세요</h2>
         {/*Illustration of a type IDL following a query by line]*/}
         {/*Under: a server <-> client (Capabilities, Requirements)]?*/}
         <p>
-          GraphQL API는 엔드포인트가 아닌 타입 및 필드로 구성됩니다. 단일 엔드포인트에서
-          데이터의 모든 기능에 엑세스 하세요. GraphQL은 타입시스템을 사용하여 앱이 가능한 것을
+          GraphQL API는 엔드포인트가 아닌 타입과 필드로 구성됩니다. 단일 엔드포인트에서
+          데이터의 모든 기능에 접근하세요. GraphQL은 타입 시스템을 사용하여 앱이 가능한 것을
           요청하고 명확하고 유용한 오류를 제공하는 것을 보장합니다. 앱은 타입을 사용하여 수동 파싱
           코드 작성을 피할 수 있습니다.</p>
       </div>
@@ -303,8 +303,8 @@ type Species {
         <h2>강력한 개발자 도구를<br />사용해보세요</h2>
         {/*Illustration of GraphiQL validation error and typeahead, animated?]*/}
         <p>
-          이제 편집기를 벗어나지 않고도 API에서 요청할 수 있는 데이터를 정확히 파악하고
-          쿼리를 보내기 전에 잠재적인 문제를 표시해주며 향상된 코드 인텔리전스를 활용할
+          이제 편집기를 벗어나지 않고도 API에서 요청할 수 있는 데이터를 정확히 파악하고,
+          쿼리를 보내기 전에 잠재적인 문제를 표시해주며, 향상된 코드 인텔리전스를 활용할
           수 있습니다. GraphQL을 사용하면 API의 타입 시스템을 활용하여 <a href="https://github.com/graphql/graphiql" target="_blank">Graph<em>i</em>QL</a>과
           같은 강력한 도구를 쉽게 만들 수 있습니다.</p>
       </div>
@@ -430,10 +430,10 @@ type Person {
         <h2>기존 데이터와<br/>코드를 사용하세요</h2>
         {/*Illustration of each field becoming a function?]*/}
         <p>
-          GraphQL은 특정 스토리지 엔진에 제한받지 않고 전체 애플리케이션에 걸쳐 균일한
+          GraphQL은 특정 데이터베이스에 제한받지 않고 전체 애플리케이션에 걸쳐 균일한
           API를 생성합니다. 다양한 언어로 제공되는 GraphQL 엔진으로 기존 데이터 및 코드를
           활용하는 GraphQL API를 작성해보세요. 타입 시스템의 각 필드에 대한 함수를 제공하고
-          GraphQL은 이를 최적적, 동시적으로 호출합니다.</p>
+          GraphQL은 이를 최적, 동시적으로 호출합니다.</p>
       </div>
       <div className="window leverage-code" aria-hidden>
         <div id="leverageCodeView">
@@ -513,10 +513,10 @@ public class Character {
 
     <section className="powered-by" id="whos-using">
       <div className="prose">
-        <h2>GraphQL을 사용하는 기업</h2>
+        <h2>GraphQL을 사용하는 회사</h2>
         <p>
-          Facebook의 모바일 앱은 2012년부터 GraphQL에 의해 제공되었습니다.
-          GraphQL 명세는 2015년부터 제공되며 현재 다양한 환경에서 사용할 수 있으며
+          Facebook의 모바일 앱은 2012년부터 GraphQL로 제공되었습니다.
+          GraphQL 명세는 2015년부터 제공되었고, 현재 다양한 환경에서 사용할 수 있으며
           모든 규모의 팀에서 사용됩니다.</p>
       </div>
       <div className="logos">
@@ -552,7 +552,7 @@ public class Character {
       </div>
 
       <a className="button" href="/users/">
-        GraphQL을 사용하는 기업들
+        GraphQL을 사용하는 회사들
       </a>
 
     </section>
