@@ -10,12 +10,17 @@ var React = require('react');
 var HeaderLinks = require('./HeaderLinks');
 var Search = require('./Search');
 var SiteData = require('./SiteData');
+var ReactGA = require('react-ga');
+ReactGA.initialize('UA-99001722-7');
 
 export default ({ page, category, title, section, className, noSearch, children }) =>
   <html>
     <head>
+
+
       <meta charSet="utf-8" />
       <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+      <meta name="google-site-verification" content="wt4jHZa0ru-stSJJrlY5sSJzj9MB0ZA6BzkprNilZdM" />
       <title>
         {title ?
           `${title} | ${category || 'GraphQL'}` :
