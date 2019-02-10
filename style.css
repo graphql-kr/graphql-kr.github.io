@@ -1105,6 +1105,12 @@ body.index section.powered-by .button:active {
   border-color: #E10098;
   text-decoration: none;
 }
+html {
+  word-break: keep-all;
+}
+* {
+  font-family: 'Spoqa Han Sans', 'Sans-serif';
+}
 .documentationContent {
   margin-bottom: 8em;
   display: flex;
