@@ -6,7 +6,7 @@
   padding: 0;
 }
 body {
-  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Spoqa Han Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 300;
   color: #202020;
   font-size: 18px;
@@ -38,42 +38,42 @@ h6 {
   text-rendering: optimizelegibility;
 }
 h1 {
-  font-family: 'Rubik', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Spoqa Han Sans', 'Rubik', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 300;
   color: #202020;
   font-size: 40px;
   line-height: 56px;
 }
 h2 {
-  font-family: 'Rubik', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Spoqa Han Sans', 'Rubik', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 300;
   color: #202020;
   font-size: 30px;
   line-height: 42px;
 }
 h3 {
-  font-family: 'Rubik', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Spoqa Han Sans', 'Rubik', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 300;
   color: #202020;
   font-size: 22px;
   line-height: 30.8px;
 }
 h4 {
-  font-family: 'Rubik', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Spoqa Han Sans', 'Rubik', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 300;
   color: #202020;
   font-size: 18px;
   line-height: 25.2px;
 }
 h5 {
-  font-family: 'Rubik', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Spoqa Han Sans', 'Rubik', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 300;
   color: #202020;
   font-size: 15px;
   line-height: 21px;
 }
 h6 {
-  font-family: 'Rubik', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Spoqa Han Sans', 'Rubik', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 300;
   color: #202020;
   font-size: 13px;
@@ -137,7 +137,7 @@ p code {
 }
 /* Header and Navigation */
 header {
-  font-family: 'Rubik', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Spoqa Han Sans', 'Rubik', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 300;
   color: #202020;
   font-size: 15px;
@@ -192,7 +192,7 @@ section {
   padding: 0 20px;
 }
 footer {
-  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Spoqa Han Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 300;
   color: #202020;
   font-size: 15px;
@@ -551,7 +551,7 @@ body.index .hero .buttons-unit {
   }
 }
 body.index .hero .buttons-unit .button {
-  font-family: 'Rubik', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Spoqa Han Sans', 'Rubik', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 300;
   color: white;
   font-size: 17px;
@@ -577,7 +577,7 @@ body.index section h2 {
   margin-top: 0;
 }
 body.index section.lead {
-  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Spoqa Han Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 300;
   color: #202020;
   font-size: 22px;
@@ -1083,7 +1083,7 @@ body.index section.powered-by .logos img.round {
   }
 }
 body.index section.powered-by .button {
-  font-family: 'Rubik', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Spoqa Han Sans', 'Rubik', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 300;
   color: #202020;
   font-size: 17px;
@@ -1107,8 +1107,6 @@ body.index section.powered-by .button:active {
 }
 html {
   word-break: keep-all;
-}
-* {
   font-family: 'Spoqa Han Sans', 'Sans-serif';
 }
 .documentationContent {
@@ -1215,7 +1213,7 @@ html {
   color: white;
 }
 .read-next .read-next-continue {
-  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Spoqa Han Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 300;
   color: #E10098;
   font-size: 13px;
@@ -1223,7 +1221,7 @@ html {
   display: block;
 }
 .read-next .read-next-title {
-  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Spoqa Han Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 300;
   color: #202020;
   font-size: 26px;
@@ -1231,7 +1229,7 @@ html {
   display: block;
 }
 .nav-docs {
-  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Spoqa Han Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 300;
   color: #202020;
   font-size: 13px;
@@ -1247,7 +1245,7 @@ html {
   }
 }
 .nav-docs h3 {
-  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Spoqa Han Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 300;
   color: #202020;
   font-size: 13px;
@@ -1994,7 +1992,7 @@ li.CodeMirror-hint-active {
 .CodeMirror-hint-information .content {
   -webkit-box-orient: vertical;
   display: -webkit-box;
-  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Spoqa Han Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 300;
   color: #202020;
   font-size: 15px;
@@ -2024,7 +2022,7 @@ div.CodeMirror-lint-tooltip {
   -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.45);
   -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.45);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.45);
-  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Spoqa Han Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 300;
   color: #202020;
   font-size: 15px;
@@ -2196,7 +2194,7 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
   }
 }
 .algolia-search-wrapper input {
-  font-family: 'Rubik', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Spoqa Han Sans', 'Rubik', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 300;
   color: #9e9e9e;
   font-size: 15px;
@@ -2221,7 +2219,7 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
   height: 53px;
 }
 .algolia-search-wrapper .aa-dropdown-menu {
-  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Spoqa Han Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 300;
   color: #202020;
   font-size: 15px;
@@ -2273,7 +2271,7 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
   border: none;
 }
 .algolia-search-wrapper .aa-dropdown-menu .algolia-docsearch-suggestion--subcategory-column {
-  font-family: 'Rubik', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Spoqa Han Sans', 'Rubik', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 300;
   color: #869cb6;
   font-size: 13px;
