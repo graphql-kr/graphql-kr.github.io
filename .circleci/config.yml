@@ -1,15 +1,9 @@
-workflows:
-  version: 2
-  main:
-    jobs:
-      - build:
-          filters:
-            branches:
-              only: develop
-
 version: 2
 jobs:
   build:
+    filters:
+      branches:
+        only: develop
     docker:
       - image: circleci/node:lts
 
