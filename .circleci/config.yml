@@ -30,8 +30,10 @@ jobs:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
 
-      - add_ssh_keys:
-          fingerprints:
-            - '57:2a:5e:cb:f4:5a:b4:90:49:e2:5e:a3:3e:80:68:d7'
+      - run: npm run build
 
-      - run: npm run deploy
+      - run: git config credential.helper 'cache --timeout=120'
+      - run: git config user.email "ysm0622@gmail.com"
+      - run: git config user.name "CircleCI Auto Deploy"
+
+      - run: npm run circleci:deploy

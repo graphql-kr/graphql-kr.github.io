@@ -7,6 +7,7 @@
     "build": "rm -rf build && babel-node resources/build.js && cp README.md build/ && cp robots.txt build/",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build -b master",
+    "circleci:deploy": "gh-pages -d build -b master --repo https://${GITHUB_PERSONAL_TOKEN}@github.com/graphql-kr/graphql-kr.github.io.git",
     "watch": "rm -rf build && babel-node resources/watch.js",
     "test": "npm run build"
   },
