@@ -80,7 +80,7 @@ Star Wars 예제에서, [starWarsIntrospection-test.js](https://github.com/graph
 }
 ```
 
-어떤 객체가 어떤 필드를 사용할 수 있는지 아는 것이 유용하기 때문에, `Droid` 를 `스카미 확인` 시스템에 요청해 봅시다.
+어떤 객체가 어떤 필드를 사용할 수 있는지 아는 것이 유용하기 때문에, `Droid` 를 `스키마 확인` 시스템에 요청해 봅시다.
 
 ```graphql
 # { "graphiql": true }
