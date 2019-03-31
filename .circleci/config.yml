@@ -30,8 +30,6 @@ jobs:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
 
-  deploy-job:
-    steps:
       - add_ssh_keys:
           fingerprints:
             - '57:2a:5e:cb:f4:5a:b4:90:49:e2:5e:a3:3e:80:68:d7'
