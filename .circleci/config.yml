@@ -1,9 +1,9 @@
 version: 2
 jobs:
   build:
-    filters:
-      branches:
-        only: develop
+    branches:
+      only:
+        - develop
     docker:
       - image: circleci/node:lts
 
