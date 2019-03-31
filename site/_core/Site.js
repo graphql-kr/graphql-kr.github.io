@@ -44,6 +44,7 @@ export default ({ page, category, title, section, className, noSearch, children 
       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik:300|Roboto:300" />
       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,400i,600" />
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" />
+      <link href='https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css'></link>
     </head>
     <body className={className}>
 
@@ -117,7 +118,7 @@ export default ({ page, category, title, section, className, noSearch, children 
 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-ga('create', 'UA-44373548-16', 'auto');
+ga('create', 'UA-99001722-7', 'auto');
 ga('send', 'pageview');
       `}} />
     </body>

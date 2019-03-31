@@ -325,7 +325,7 @@ type Species {
           기존 쿼리에 영향을 주지 않고 GraphQL API에 새로운 필드와 타입을 추가하세요.
           오래된 필드는 더이상 사용되지 않도록 도구에서 숨길 수 있습니다.
           진화하는 단일 버전을 사용함으로써 GraphQL API는 새로운 기능에 대한 지속적인
-          엑세스를 제공하고 보다 꺠끗하고 유지보수가 쉬운 서버 코드를 작성하도록 도와줍니다.</p>
+          엑세스를 제공하고 보다 깨끗하고 유지보수가 쉬운 서버 코드를 작성하도록 도와줍니다.</p>
       </div>
       <div className="window type-evolution" aria-hidden>
         <div id="typeEvolveView">
