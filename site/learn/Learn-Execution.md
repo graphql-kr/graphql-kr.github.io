@@ -59,7 +59,7 @@ GraphQL 쿼리의 각 필드는 다음 타입을 반환하는 타입의 함수�
 
 ```js
 Query: {
-  human(obj, args, context) {
+  human(obj, args, context, info) {
     return context.db.loadHumanByID(args.id).then(
       userData => new Human(userData)
     )
@@ -79,7 +79,7 @@ Query: {
 아래 `resolver` 함수에서 어떤 일이 일어나는지 자세히 살펴보겠습니다.
 
 ```js
-human(obj, args, context) {
+human(obj, args, context, info) {
   return context.db.loadHumanByID(args.id).then(
     userData => new Human(userData)
   )
@@ -97,7 +97,7 @@ human(obj, args, context) {
 
 ```js
 Human: {
-  name(obj, args, context) {
+  name(obj, args, context, info) {
     return obj.name
   }
 }
@@ -131,7 +131,7 @@ Human: {
 
 ```js
 Human: {
-  starships(obj, args, context) {
+  starships(obj, args, context, info) {
     return obj.starshipIDs.map(
       id => context.db.loadStarshipByID(id).then(
         shipData => new Starship(shipData)
