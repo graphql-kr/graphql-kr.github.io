@@ -89,7 +89,7 @@ export default ({ page, category, title, section, className, noSearch, children 
             <a href="/blog">GraphQL 팀 블로그</a>
             <a href="http://facebook.github.io/graphql/" target="_blank" rel="noopener noreferrer">명세</a>
             <a href="https://github.com/graphql" target="_blank" rel="noopener noreferrer">깃허브</a>
-            {page && <a href={'https://github.com/graphql/graphql.github.io/edit/source/site/' + page.relPath} target="_blank" rel="noopener noreferrer">이 페이지 수정 &#x270E;</a>}
+            {page && <a href={'https://github.com/graphql-kr//graphql-kr.github.io/edit/develop/site/' + page.relPath} target="_blank" rel="noopener noreferrer">이 페이지 수정 &#x270E;</a>}
           </div>
         </section>
         <a href="https://code.facebook.com/projects/" target="_blank" rel="noopener noreferrer" className="fbOpenSource">

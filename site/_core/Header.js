@@ -28,7 +28,7 @@ export function toSlug(string) {
       function (c) { return without.charAt(accents.indexOf(c)); })
 
     // Dash special characters
-    .replace(/[^a-z0-9]/g, '-')
+    .replace(/[^가-힣a-z0-9]/g, '-')
 
     // Compress multiple dash
     .replace(/-+/g, '-')
