@@ -294,7 +294,7 @@ query HeroForEpisode($ep: Episode!) {
 }
 ```
 
-이에 대한 자세한 내용은 쿼리 가이드의 [인라인 프래그먼트](/learn/queries/#inline-fragments) 장을 참조하세요.
+이에 대한 자세한 내용은 쿼리 가이드의 [인라인 프래그먼트](/learn/queries/#인라인-프래그먼트) 장을 참조하세요.
 
 ### 유니온 타입
 

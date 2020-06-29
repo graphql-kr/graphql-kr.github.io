@@ -124,7 +124,7 @@ fragment comparisonFields on Character {
 
 ### 프래그먼트 안에서 변수 사용하기
 
-쿼리나 뮤테이션에 선언된 변수는 프래그먼트에 접근할 수 있습니다. [변수](learn/queries/#variables)를 확인해보세요.
+쿼리나 뮤테이션에 선언된 변수는 프래그먼트에 접근할 수 있습니다. [변수](#변수)를 확인해보세요.
 
 ```graphql
 # { "graphiql": true }
@@ -290,7 +290,7 @@ mutation CreateReviewForEpisode($ep: Episode!, $review: ReviewInput!) {
 
 ## 인라인 프래그먼트
 
-다른 여러 타입 시스템과 마찬가지로 GraphQL 스키마에는 인터페이스와 유니온 타입을 정의하는 기능이 포함되어 있습니다. [스키마 가이드에서 대해 자세히 알아보세요.](/learn/schema/#interfaces)
+다른 여러 타입 시스템과 마찬가지로 GraphQL 스키마에는 인터페이스와 유니온 타입을 정의하는 기능이 포함되어 있습니다. [스키마 가이드에서 대해 자세히 알아보세요.](/learn/schema/#인터페이스)
 
 인터페이스나 유니언 타입을 반환하는 필드를 쿼리하는 경우, *인라인 프래그먼트* 을 사용해야합니다. 예제를 통해 확인하는 것이 가장 쉽습니다.
 
@@ -337,4 +337,4 @@ GraphQL 서비스에서 리턴될 타입을 모르는 상황이 발생하면 클
 
 위 쿼리에서 `search` 는 3 가지 중 하나인 유니언 타입을 반환합니다. `__typename` 필드가 없으면 클라이언트가 다른 타입을 구별하는 것은 불가능할 것입니다.
 
-GraphQL 서비스는 몇 가지 메타 필드를 제공하며, 나머지는 [Introspection](../Introspection/) 시스템을 노출하는 데 사용됩니다.
+GraphQL 서비스는 몇 가지 메타 필드를 제공하며, 나머지는 [Introspection](../introspection/) 시스템을 노출하는 데 사용됩니다.
